@@ -15,7 +15,7 @@
         "symfony/dependency-injection": "^2.7|^3.0|^4.1",
         "symfony/form": "^2.7|^3.0|^4.1",
         "symfony/framework-bundle": "^2.7|^3.0|^4.1",
-        "azatyan/json-builder": "*",
+        "azatyan/json-builder": "*"
     },
     "require-dev": {
         "composer/composer": "^1.0",
