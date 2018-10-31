@@ -9,7 +9,7 @@
             <argument type="service" id="service_container" />
         </service>
 
-        <service id="ivory_ck_editor.renderer.json_builder" class="Ivory\JsonBuilder\JsonBuilder">
+        <service id="ivory_ck_editor.renderer.json_builder" class="Ivory\JsonBuilder\JsonBuilder" public="true">
             <argument type="service" id="property_accessor" on-invalid="null" />
         </service>
     </services>
