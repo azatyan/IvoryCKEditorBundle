@@ -77,17 +77,17 @@ class CKEditorType extends AbstractType
     /**
      * @var string
      */
-    private $basePath = 'bundles/ivoryckeditor/';
+    private $basePath = '/bundles/ivoryckeditor/';
 
     /**
      * @var string
      */
-    private $jsPath = 'bundles/ivoryckeditor/ckeditor.js';
+    private $jsPath = '/bundles/ivoryckeditor/ckeditor.js';
 
     /**
      * @var string
      */
-    private $jqueryPath = 'bundles/ivoryckeditor/adapters/jquery.js';
+    private $jqueryPath = '/bundles/ivoryckeditor/adapters/jquery.js';
 
     /**
      * @var ConfigManagerInterface
